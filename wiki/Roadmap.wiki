@@ -2,14 +2,15 @@
 
 ==Use Google Maps==
 The metadata in QuickRoute jpeg files can be used to geocode DOMA maps. Save the essential geocoding (map corners, map center, etc) in the database.
-  * Show the location of a DOMA map on a GM map
+  * ~~Show the location of a DOMA map on a GM map.~~
   * Show the locations of multiple DOMA maps on a GM map
-  * Use WorldOfO-style combination of thumbnail and overview map
-  * Use GM polygons to show the border of a DOMA map
+  * Use WorldOfO-style combination of thumbnail and overview map.
+  * ~~Use GM polygons to show the border of a DOMA map.~~
 
 ==Google Earth integration==
-  * Create a php class that generates a kmz file from one or many DOMA map(s) on the fly.
-  * Every geocoded map should have a "Open in Google Earth" icon/link next to it.
+  * ~~Create a php class that generates a kmz file from a single DOMA map(s) on the fly.~~
+  * Create a php class that generates a kmz file from multiple DOMA map(s) on the fly.
+  * ~~Every geocoded map should have a "Open in Google Earth" icon/link next to it.~~
 
 ==DOMA event object==
 There is a need to define events (i e trainings/competitions). An event is a container for a number of DOMA maps.
@@ -20,6 +21,7 @@ There is a need to define events (i e trainings/competitions). An event is a con
   * Make it possible to define and store custom attributes for a map.
   * Add fields for from QuickRoute jpeg metadata: straight line distance, time, etc.
   * Password-protected maps.
+  * Maps visible only to the owner.
   * Further integration with QuickRoute jpeg metadata: calculate speed, heart rate, etc at a certain time.
 
 ==Replay using javascript/SVG==
