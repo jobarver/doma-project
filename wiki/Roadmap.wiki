@@ -1,5 +1,7 @@
 #summary Ideas and plans for further DOMA development
 
+~~Strikethrough items~~ have been implemented.
+
 ==Use Google Maps==
 The metadata in QuickRoute jpeg files can be used to geocode DOMA maps. Save the essential geocoding (map corners, map center, etc) in the database.
   * ~~Show the location of a DOMA map on a GM map.~~
