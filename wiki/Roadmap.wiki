@@ -5,7 +5,7 @@
 ==Use Google Maps==
 The metadata in QuickRoute jpeg files can be used to geocode DOMA maps. Save the essential geocoding (map corners, map center, etc) in the database.
   * ~~Show the location of a DOMA map on a GM map.~~
-  * Show the locations of multiple DOMA maps on a GM map
+  * ~~Show the locations of multiple DOMA maps on a GM map
   * Use WorldOfO-style combination of thumbnail and overview map.
   * ~~Use GM polygons to show the border of a DOMA map.~~
 
@@ -34,4 +34,4 @@ Use the experimental replay from http://www.matstroeng.se/tracking/replay.php?ev
   * ~~Define available languages in config.php~~
 
 ==Map detail==
-  * Add comments possibility (Facebook style - last x comments visible, all after expanding the box, probably needs some sort of security = CAPTCHA)
+  * ~~Add comments possibility (Facebook style - last x comments visible, all after expanding the box, probably needs some sort of security = CAPTCHA)
