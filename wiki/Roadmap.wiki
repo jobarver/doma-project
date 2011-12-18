@@ -17,7 +17,6 @@ The metadata in QuickRoute jpeg files can be used to geocode DOMA maps. Save the
 ==DOMA event object==
 There is a need to define events (i e trainings/competitions). An event is a container for a number of DOMA maps.
   * An event has a name, a date, ant a number of other attributes.
-  * Addition of blank maps for an event. These maps might be encrypted before a certain time, which makes it possible to publish maps for a traning in advance without being revealed to the public.
 
 ==DOMA map object enhancements==
   * Make it possible to define and store custom attributes for a map.
@@ -25,6 +24,7 @@ There is a need to define events (i e trainings/competitions). An event is a con
   * Password-protected maps.
   * Maps visible only to the owner.
   * Further integration with QuickRoute jpeg metadata: calculate speed, heart rate, etc at a certain time.
+  * ~~Maps might be encrypted before a certain time, which makes it possible to publish maps for a traning in advance without them being revealed to the public.~~
 
 ==Replay using javascript/SVG==
 Use the experimental replay from http://www.matstroeng.se/tracking/replay.php?eventId=4. Source code available on demand. Might be used for live tracking as well as post-race replay.
